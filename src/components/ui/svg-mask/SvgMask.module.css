@@ -1,0 +1,23 @@
+.mask,
+.revealText {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gold;
+  font-size: xx-large;
+}
+
+.container {
+  height: 100vh;
+}
+
+.mask {
+  position: absolute;
+  mask-image: url(/mask.svg);
+  background: red;
+  mask-repeat: no-repeat;
+  color: black;
+  mask-size: 40px;
+}
