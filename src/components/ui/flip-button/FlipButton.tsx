@@ -1,5 +1,7 @@
+// import styles from './FlipButton.module.css';
+
 const FlipButton = () => {
-	return <div>Hello World</div>;
+	return <div></div>;
 };
 
 export default FlipButton;
